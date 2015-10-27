@@ -7,7 +7,7 @@ load('data/data.clean.Rdata')
 
 cc <- 0.4
 
-tree.pats <- c("Patient17","Patient18", "Patient04", "Patient01","Patient41","Patient49","Patient90", "Patient68")
+tree.pats <- c("Patient17","Patient18", "Patient04", "Patient01","Patient49","Patient90")
 header <- tree.pats[2]
 
 pat_inds <- grep(header, names(data.clean))
